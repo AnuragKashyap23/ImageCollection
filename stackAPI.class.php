@@ -4,7 +4,7 @@ class stackAPI{
     private $apiKey;
     function __construct()
     {
-        $this->apiKey = "9fggN9aKzT5rjevKcOBP9NtYM5ZFiZcla9LjX34qK1heLK677g8qoZR2";
+        $this->apiKey = "";
     }
     public function get_stack($type = "curated", $qry = []){
         $url = "https://api.pexels.com/v1/{$type}";
